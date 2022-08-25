@@ -3,39 +3,21 @@ package CodingBat;
 public class CodingBat {
     public static void main(String[] args) {
 
-        System.out.println(mixString("abc", "xyz"));
+        System.out.println(method("zzzopzop"));
     }
 
+    public static String method(String str) {
+            String sr = "";
+            for (int i = 0 ; i < str.length()-2; i ++ )
 
-    public static String mixString(String a, String b) {
-        String result="";
-        if(a.length()>=b.length()){
-            for(int i = 0;i<b.length();i++){
-                result +=""+a.charAt(i)+ b.charAt(i);
-            }
-            result +=a.substring(b.length()-1);
-        }else{
-            for(int i = 0;i<a.length();i++){
-                result +=""+a.charAt(i)+ b.charAt(i);
-            }
-            result +=b.substring(a.length()-1);
-        }
-        return result;
-    }
+                if (str.charAt(i)=='z'&& str.charAt(i+2)=='p'){
+                    sr += str.charAt(i)+""+str.charAt(i+2);
+                    i+=2;
+                }else
+                    sr+= str.charAt(i);
 
 
-    public static String doubleIt(String str) {
-        String newStr = "";
-        for (int i = 0; i < str.length(); i++) {
-            newStr += "" + str.charAt(i) + str.charAt(i);
-
+            return sr;
 
         }
-        return newStr;
-
-    }
 }
-
-
-
-
