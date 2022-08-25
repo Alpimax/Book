@@ -7,6 +7,7 @@ public class Computer {
     public Computer(String os, int memory) {
         this.os = os;
         this.memory = memory;
+
     }
 
     public String toString() {
