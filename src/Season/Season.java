@@ -12,8 +12,7 @@ public class Season {
     }
 
     public void activity(){
-
-        return ;
+        System.out.println(name);
     }
 
     @Override

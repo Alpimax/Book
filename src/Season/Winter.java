@@ -6,4 +6,9 @@ public class Winter extends Season {
         super(name, highest, lowest);
     }
 
+    @Override
+    public void activity() {
+        System.out.println("Use Fireplace. ");
+    }
+
 }
