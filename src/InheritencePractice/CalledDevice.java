@@ -14,7 +14,6 @@ public class CalledDevice {
     }
     public void useDevice(){
 
-        System.out.println("print Using TV");
     }
 
 
