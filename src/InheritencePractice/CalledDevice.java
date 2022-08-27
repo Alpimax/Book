@@ -12,8 +12,12 @@ public class CalledDevice {
         this.price = price;
         this.wireless = wireless;
     }
+    public void useDevice(){
 
-    @Override
+        System.out.println("print Using TV");
+    }
+
+
     public String toString() {
         return "CalledDevice{" +
                 "brand='" + brand + '\'' +
