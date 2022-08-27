@@ -1,12 +1,12 @@
 package InheritencePractice;
 
-public class CalledDevice {
+public class Device {
     String  brand;
     int model;
     double price;
     boolean wireless;
 
-    public CalledDevice(String brand, int model, double price, boolean wireless) {
+    public Device(String brand, int model, double price, boolean wireless) {
         this.brand = brand;
         this.model = model;
         this.price = price;

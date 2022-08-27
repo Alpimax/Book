@@ -1,18 +1,19 @@
 package InheritencePractice;
 
-public class CalledTV extends CalledDevice {
+public class Phone extends Device {
 
-    public CalledTV(String brand, int model, double price, boolean wireless) {
+    public Phone(String brand, int model, double price, boolean wireless) {
         super(brand, model, price, wireless);
     }
 
     @Override
     public void useDevice() {
-        System.out.println("Using TV");
+        super.useDevice();
     }
 
+
     public String toString() {
-        return "CalledTV{" +
+        return "Phone{" +
                 "brand='" + brand + '\'' +
                 ", model=" + model +
                 ", price=" + price +
