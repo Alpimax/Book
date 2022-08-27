@@ -15,9 +15,15 @@ public class Season {
         System.out.println(name);
     }
 
-    @Override
-    public String toString() {
-        return "";
 
+
+
+    public String toString() {
+        return "Season{" +
+                "name='" + name + '\'' +
+                ", highest=" + highest +
+                ", lowest=" + lowest +
+                '}';
     }
 }
+
