@@ -1,13 +1,22 @@
 package Day41_exceptions;
 
-public class Summer extends Season{
+public class Season {
 
-    public Summer(double highestTemp, double lowestTemp) {
-        super("Summer", highestTemp, lowestTemp);
+    String name;
+    double highestTemp;
+    double lowestTemp;
+
+    public Season(String name, double highestTemp, double lowestTemp) {
+        this.name = name;
+        this.highestTemp = highestTemp;
+        this.lowestTemp = lowestTemp;
     }
 
-    @Override
-    public void activity() {
-        System.out.println("Drink Lemonade");
+    public void activity(){
+        System.out.println("GENERIC SEASON");
+    }
+
+    public String toString(){
+        return name + " season with the highest temperature of " + highestTemp + " and a lowest temperature of " + lowestTemp;
     }
 }
