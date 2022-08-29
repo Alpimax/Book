@@ -2,7 +2,7 @@ package Sample;
 
 public class NewClass {
 
-    String name ;
+    private String name ;
     int money ;
     double salary;
     boolean isCorrect ;
@@ -15,7 +15,7 @@ public class NewClass {
     }
 
     public  void method(){
-
+        System.out.println();
     }
 
 
