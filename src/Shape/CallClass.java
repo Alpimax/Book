@@ -12,5 +12,7 @@ public class CallClass {
 
         Triangle obj2 = new Triangle(100);
         System.out.println(obj2.area());
+
+//         some commit added.
     }
 }
