@@ -1,4 +1,7 @@
 package day43_abstraction;
 
-public class Car {
+public abstract class Car {
+
+    public abstract void start();
+
 }
