@@ -1,5 +1,7 @@
 package CodingBat;
 
+import java.util.Arrays;
+
 public class CodingBat {
     public static void main(String[] args) {
 
@@ -7,17 +9,11 @@ public class CodingBat {
     }
 
     public static String method(String str) {
-            String sr = "";
-            for (int i = 0 ; i < str.length()-2; i ++ )
+      int[]nums = {10, 3, 5, 6};
 
-                if (str.charAt(i)=='z'&& str.charAt(i+2)=='p'){
-                    sr += str.charAt(i)+""+str.charAt(i+2);
-                    i+=2;
-                }else
-                    sr+= str.charAt(i);
+        Arrays.sort(nums);
+        int sum = nums[nums.length-1]-nums[0];
 
-
-            return sr;
-
+return  str;
         }
 }
