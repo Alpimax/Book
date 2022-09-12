@@ -1,4 +1,4 @@
-package day43_abstraction;
+package day43_abstraction.cars;
 
 public class BMW extends Car {
     @Override
