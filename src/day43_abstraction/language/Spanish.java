@@ -1,15 +1,15 @@
 package day43_abstraction.language;
 
-public class English implements  Language{
+public class Spanish implements Language {
     @Override
     public void hello() {
-        System.out.println("Hello");
+        System.out.println("Hola");
 
     }
 
     @Override
     public void bye() {
-        System.out.println("Bye");
+        System.out.println("Adios");
 
     }
 }
