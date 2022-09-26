@@ -11,6 +11,7 @@ public class FlightTicket {
         this.arrival = arrival;
     }
 
+
     public String getType() {
         return type;
     }
